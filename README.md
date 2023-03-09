@@ -31,10 +31,10 @@ You can use the main method found in RhymingDict.java. In fact, the test cases a
 
 ## To Do 1: Implementing a Hashtable
 
-You'll be implementing a hashtable class called ```​MyHashtable```​. It implements the interface
-```DictionaryInterface```​.
+You'll be implementing a hashtable class called ```MyHashtable```. It implements the interface
+```DictionaryInterface```.
 
-The hashtable you'll be making will use ​Strings​ as the keys and ​Object​ as the values. Similar to linked lists, by storing ​Object​ as values, you can store any kind of object in the hashtable.
+The hashtable you'll be making will use Strings as the keys and Object as the values. Similar to linked lists, by storing Object as values, you can store any kind of object in the hashtable.
 
 ### To implement a hashtable:
 
