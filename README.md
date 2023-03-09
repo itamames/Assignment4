@@ -113,8 +113,7 @@ To implement ```​Object ​put​(String key, Object value)​ ```you need to:
     * c. Set this location in the array equal to the new bucket (list).
     * d. Increment the ​size​ (the number of unique keys you have stored).
 3. If the location in the table isn't ​null​, that means keys with this colliding hash code have
-   been previously stored. So our new key/value pair might be a key that's already been added (in which case we replace the value), or a brand new key (in which case we add a
-   new ​Entry​ to the bucket).
+   been previously stored. So our new key/value pair might be a key that's already been added (in which case we replace the value), or a brand new key (in which case we add a new ​Entry​ to the bucket).
 
     * a. Linearly search through the bucket (the list) stored at this array location comparing the key for each entry with the key passed into ​put()​. If you get a match, this means this key as been previously stored. Save the old value in the Entry​ (so you can return it) and replace it with the new value. You don't need to increment the size since you're not adding a new key.
 
